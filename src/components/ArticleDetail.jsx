@@ -8,7 +8,7 @@ const ArticleDetail = () => {
     <>
     <div className='mt-2'><span className='badge bg-primary'>{lang.toUpperCase()}</span> TUTORIAL FOR EVERYONE</div>
     <Card>
-      <Card.Header>{article}</Card.Header>
+      <Card.Header>{article.toUpperCase()}</Card.Header>
       <Card.Body>
         <Card.Title>Special title treatment</Card.Title>
         <Card.Text>

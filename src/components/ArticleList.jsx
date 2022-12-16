@@ -12,7 +12,7 @@ const ArticleList = ({lang}) => {
             return(
             <ListGroup.Item 
             key={i}
-            onClick={() => navigate(`/detail/${lang}/${article}`)}
+            onClick={() => navigate(`/detail/${lang}/${article.toLowerCase()}`)}
             >{article}</ListGroup.Item>)
         })}
     

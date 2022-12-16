@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>In this page you can find very useful information about programming languages.</div>
   )
 }
 
